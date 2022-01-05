@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="main.Monster"
+            prefHeight="400.0" prefWidth="600.0">
+    <children>
+        <Label fx:id="healthLabel" layoutX="1500.0" layoutY="792.0" prefHeight="74.0" prefWidth="289.0" text="Health">
+            <font>
+                <Font size="20.0" />
+            </font>
+        </Label>
+    </children>
+
+</AnchorPane>

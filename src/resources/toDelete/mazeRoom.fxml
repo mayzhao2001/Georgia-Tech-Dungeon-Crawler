@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<Pane fx:id="mazeRoom" prefHeight="1080.0" prefWidth="1920.0" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Pane prefHeight="1080.0" prefWidth="1920.0">
+         <children>
+            <Label fx:id="money" layoutX="1545.0" layoutY="792.0" prefHeight="74.0" prefWidth="289.0" text="Money">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Label>
+            <Button fx:id="nextRoomDoor" layoutX="870.0" layoutY="20.0" mnemonicParsing="false" prefHeight="120.0" prefWidth="180.0" text="">
+               <font>
+                  <Font size="37.0" />
+               </font>
+            </Button>
+            <Button fx:id="prevRoomDoor" layoutX="870.0" layoutY="848.0" mnemonicParsing="false" prefHeight="120.0" prefWidth="180.0" text="">
+               <font>
+                  <Font size="37.0" />
+               </font>
+            </Button>
+         </children></Pane>
+   </children>
+</Pane>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<Pane fx:id="dieScreen" prefHeight="1080.0" prefWidth="1920.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1">
+    <children>
+        <Label fx:id="DieLabel" alignment="CENTER" layoutX="510.0" layoutY="258.0" prefHeight="51.0" prefWidth="900.0" text="You got put into academic probation!" textFill="WHITE">
+            <font>
+                <Font size="50.0" />
+            </font>
+        </Label>
+        <Label fx:id="stat1" layoutX="400.0" layoutY="400.0" prefHeight="51.0" prefWidth="900.0" text="Money: " textFill="WHITE">
+            <font>
+                <Font size="30.0" />
+            </font>
+        </Label>
+        <Label fx:id="stat2" layoutX="400.0" layoutY="450.0" prefHeight="51.0" prefWidth="900.0" text="Remaining health: " textFill="WHITE">
+            <font>
+                <Font size="30.0" />
+            </font>
+        </Label>
+        <Label fx:id="stat3" layoutX="400.0" layoutY="500.0" prefHeight="51.0" prefWidth="900.0" text="" textFill="WHITE">
+            <font>
+                <Font size="30.0" />
+            </font>
+        </Label>
+        <Label fx:id="stat4" layoutX="400.0" layoutY="550.0" prefHeight="51.0" prefWidth="900.0" text="" textFill="WHITE">
+            <font>
+                <Font size="30.0" />
+            </font>
+        </Label>
+
+        <Button fx:id="buttonStartOver" layoutX="710.0" layoutY="735.0" mnemonicParsing="false" prefHeight="80.0" prefWidth="500.0" text="">
+            <font>
+                <Font size="37.0" />
+            </font>
+        </Button>
+    </children>
+</Pane>

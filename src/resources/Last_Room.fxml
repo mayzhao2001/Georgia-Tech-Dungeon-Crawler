@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<Pane fx:id="lastRoom" prefHeight="1080.0" prefWidth="1920.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1">
+    <children>
+        <Button fx:id="Door" layoutX="910.0" layoutY="752.0" mnemonicParsing="false" prefHeight="80.0" prefWidth="100.0" text="">
+            <font>
+                <Font size="37.0" />
+            </font>
+        </Button>
+        <Label fx:id="money" layoutX="1400.0" layoutY="150.0" prefHeight="74.0" prefWidth="500.0" text="Money">
+            <font>
+                <Font size="20.0" />
+            </font>
+        </Label>
+
+        <Label fx:id="roomNum" layoutX="1400.0" layoutY="200.0" prefHeight="74.0" prefWidth="500.0" text="Room Num">
+            <font>
+                <Font size="20.0" />
+            </font>
+        </Label>
+
+        <Label fx:id="playerHealth" layoutX="1400.0" layoutY="250.0" prefHeight="74.0" prefWidth="500.0" text="Health">
+            <font>
+                <Font size="20.0" />
+            </font>
+        </Label>
+        <Button fx:id="examBoss" layoutX="910.0" layoutY="274.0" mnemonicParsing="false" prefHeight="130.0" prefWidth="100.0" text="">
+            <font>
+                <Font size="37.0" />
+            </font>
+        </Button>
+        <Label fx:id="monHealth" alignment="CENTER" layoutX="762.0" layoutY="412.0" prefHeight="74.0" prefWidth="396.0" text="Health">
+            <font>
+                <Font size="20.0" />
+            </font>
+        </Label>
+      <Label id="alertLabel" layoutX="845.0" layoutY="47.0" text="Defeat the final enemy before you advance!" visible="false">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+    </children>
+</Pane>

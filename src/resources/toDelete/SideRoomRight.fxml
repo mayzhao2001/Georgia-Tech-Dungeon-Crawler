@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="1080" prefWidth="1920" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" >
+    <children>
+        <ImageView fitHeight="1080.0" fitWidth="1920.0" layoutX="6.0" pickOnBounds="true" preserveRatio="true">
+            <viewport>
+                <Rectangle2D />
+            </viewport>
+            <image>
+                <Image url="@../Side_Room.png" />
+            </image>
+        </ImageView>
+        <ImageView fitHeight="240.0" fitWidth="120.0" layoutX="0" layoutY="420.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../Open_Door_Left.png" />
+            </image>
+        </ImageView>
+    </children>
+</AnchorPane>

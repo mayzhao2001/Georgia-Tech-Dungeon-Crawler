@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane fx:id="configScreen" prefHeight="1080.0" prefWidth="1920.0" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+<!--      <ImageView fx:id="titleBackImg" fitHeight="1080.0" fitWidth="1920.0" preserveRatio="true">-->
+<!--         <image>-->
+<!--            <Image url="techMenu.png" />-->
+<!--         </image>-->
+<!--      </ImageView>-->
+      <Button fx:id="buttonStart" layoutX="1300.0" layoutY="779.0" mnemonicParsing="false" prefHeight="80.0" prefWidth="228.0" text="Start">
+         <font>
+            <Font size="37.0" />
+         </font>
+      </Button>
+      <Label fx:id="NameLabel" layoutX="425.0" layoutY="269.0" prefHeight="51.0" prefWidth="125.0" text="Name:" textFill="WHITE">
+         <font>
+            <Font size="37.0" />
+         </font>
+      </Label>
+      <Label fx:id="diffLabel" layoutX="421.0" layoutY="388.0" prefHeight="51.0" prefWidth="164.0" text="Difficulty:" textFill="WHITE">
+         <font>
+            <Font size="37.0" />
+         </font>
+      </Label>
+      <Button fx:id="diffIS" layoutX="657.0" layoutY="378.0" mnemonicParsing="false" text="In-state">
+         <font>
+            <Font size="37.0" />
+         </font>
+      </Button>
+      <Button fx:id="diffOOS" layoutX="915.0" layoutY="378.0" mnemonicParsing="false" text="Out-of-state">
+         <font>
+            <Font size="37.0" />
+         </font>
+      </Button>
+      <Button fx:id="diffIntern" layoutX="1248.0" layoutY="378.0" mnemonicParsing="false" text="International">
+         <font>
+            <Font size="37.0" />
+         </font>
+      </Button>
+      <Label fx:id="weaponLabel" layoutX="419.0" layoutY="523.0" prefHeight="48.0" prefWidth="287.0" text="Starting Weapon:" textFill="WHITE">
+         <font>
+            <Font size="37.0" />
+         </font>
+      </Label>
+      <Button fx:id="weapPencil" layoutX="743.0" layoutY="515.0" mnemonicParsing="false" text="Pencil">
+         <font>
+            <Font size="37.0" />
+         </font>
+      </Button>
+      <Button fx:id="weapText" layoutX="985.0" layoutY="516.0" mnemonicParsing="false" text="Textbook">
+         <font>
+            <Font size="37.0" />
+         </font>
+      </Button>
+      <Button fx:id="weapCalc" layoutX="1281.0" layoutY="516.0" mnemonicParsing="false" text="Calculator">
+         <font>
+            <Font size="37.0" />
+         </font>
+      </Button>
+      <TextField fx:id="NameField" layoutX="544.0" layoutY="258.0" prefHeight="72.0" prefWidth="941.0" promptText="Enter your name">
+         <font>
+            <Font size="37.0" />
+         </font>
+      </TextField>
+      <Label fx:id="alertLabel" layoutX="544.0" layoutY="178.0" prefHeight="62.0" prefWidth="941.0" text="Make sure to fill in your name and select weapon / difficulty!" textFill="RED" visible="false">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+   </children>
+</Pane>

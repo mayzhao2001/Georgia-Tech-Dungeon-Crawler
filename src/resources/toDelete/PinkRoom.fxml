@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="1080" prefWidth="1920" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <ImageView fitHeight="1080.0" fitWidth="1920.0" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <image>
+            <Image url="@../Pink_Room.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="540.0" fitWidth="480.0" layoutY="360.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Desks.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="540.0" fitWidth="480.0" layoutX="720.0" layoutY="360.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Desks.png" />
+         </image></ImageView>
+      <ImageView fitHeight="540.0" fitWidth="480.0" layoutX="1440.0" layoutY="360.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Desks.png" />
+         </image></ImageView>
+      <ImageView fitHeight="120.0" fitWidth="240.0" layoutX="480.0" layoutY="960.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Open_Door.png" />
+         </image></ImageView>
+      <ImageView fitHeight="120.0" fitWidth="240.0" layoutX="1200.0" layoutY="960.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Open_Door.png" />
+         </image></ImageView>
+   </children>
+</AnchorPane>
